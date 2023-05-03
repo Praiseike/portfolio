@@ -10,9 +10,9 @@ function SkillSet({set}){
 					set.map(({name,icon,text},index) => (
 						<li key={index} className="flex flex-col justify-betweeen space-y-3 py-1 pb-5">
 							<h3 className="text-gray-300 flex flex-row items-center w-[200px]">
-								{icon} {name}
+								<span className="text-main">{icon}</span> {name}
 							</h3>
-							<p className="w-full border border-[#44444466] p-3 text-gray-300 text-xs rounded">
+							<p className="w-full leading-5 border border-[#44444466] p-3 text-gray-300 text-xs rounded">
 								{text}
 							</p>
 						</li>
@@ -29,11 +29,11 @@ export default function Skills(){
 			<div id="skills-panel" className="py-10 sm:md:overflow-y-auto mt-5 h-full flex flex-col justify-between">
 				<div className="flex items-center flex-col sm:md:flex-row sm:md:h-[20rem] justify-between">
 					<div className=" w-full h-full">
-						<h1 className="text-main font-bold">Backend</h1>
+						<h1 className="text-main font-bold text-2xl">Backend</h1>
 						<SkillSet set={skills.backend}/>
 					</div>
 					<div className=" w-full h-full pb-20">
-						<h1 className="text-main font-bold">Frontend</h1>
+						<h1 className="text-main font-bold text-2xl">Frontend</h1>
 						<SkillSet set={skills.frontend}/>
 					</div>
 				</div>

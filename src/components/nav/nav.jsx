@@ -8,6 +8,7 @@ export default function Nav(){
 	function checkActive(active){
 		return active ? " border-b text-white" : "text-gray-400";
 	}
+	
 	return (
 		<nav className="flex items-center justify-between text-gray-300">
 			<div className="font-bold text-xl hidden sm:md:block">Ibangha <span className="text-main">Ike</span></div>
