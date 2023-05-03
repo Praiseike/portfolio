@@ -8,7 +8,7 @@ export default function Landing(){
 				<div className="flex sm:md:flex-row flex-col justify-between">
 					<div className="sm:md:w-1/2 pt-28">
 						<h1 className="text-3xl font-bold">Hello!, I'm Ibangha <span className="text-main">Ike</span>.<br/> <span className="gradient-text">A FullStack Web Developer</span></h1>
-						<p className="text-sm font-light text-gray-400 mt-5 sm:md:w-[70%]">
+						<p className="text-sm font-light text-gray-400 mt-5 md:w-[70%]">
 							I craft responsive websites and robust web applications using innovative technology to bring your web ideas to reality and deliver seamless user experiences	
 						</p>
 						<div className="flex flex-row my-4">
@@ -19,7 +19,7 @@ export default function Landing(){
 						<button className="py-1 px-4 mt-5 bg-main">See Projects →</button>
 					</div>
 
-					<div className="hidden sm:md:block">
+					<div className="hidden lg:block md:block">
 						<img src={developer} className="w-full" alt="developer illustration"/>
 					</div>
 				</div>
