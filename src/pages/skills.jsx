@@ -1,9 +1,10 @@
 import skills from '../constants/skills';
 import Page from "../components/page/page";
 import './styles.css';
+
 function SkillSet({set}){
 	return (
-		<div className="pr-20 py-2">
+		<div className="sm:md:pr-20 py-2">
 			<ul>
 				{
 					set.map(({name,icon,text},index) => (
@@ -25,13 +26,13 @@ function SkillSet({set}){
 export default function Skills(){
 	return (
 		<Page>
-			<div id="skills-panel" className="py-10 overflow-y-scroll mt-5 h-full flex flex-col justify-between">
-				<div className="flex items-center flex-row  h-[20rem] justify-between">
+			<div id="skills-panel" className="py-10 sm:md:overflow-y-scroll mt-5 h-full flex flex-col justify-between">
+				<div className="flex items-center flex-col sm:md:flex-row sm:md:h-[20rem] justify-between">
 					<div className=" w-full h-full">
 						<h1 className="text-main font-bold">Backend</h1>
 						<SkillSet set={skills.backend}/>
 					</div>
-					<div className=" w-full h-full">
+					<div className=" w-full h-full pb-20">
 						<h1 className="text-main font-bold">Frontend</h1>
 						<SkillSet set={skills.frontend}/>
 					</div>

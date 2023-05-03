@@ -15,8 +15,8 @@ function App() {
           <img src={gradient} className="w-[20rem] h-[20rem] left-0 top-0 absolute"/>
           <img src={bg} className="w-72 h-72 mx-auto mt-40 heartbeat-animation"/>
           <Router>
-            <section className="absolute inset-0 w-full h-full py-10 px-20">
-              <div className="border backdrop-blur-xl bg-[#61616122] border-[#ffffff22] rounded-[1rem] h-full py-4 px-10">
+            <section className="absolute inset-0 w-full h-full sm:md:py-10 sm:md:px-20">
+              <div className="border backdrop-blur-xl bg-[#61616122] border-[#ffffff22] overflow-y-scroll rounded-[1rem] h-full py-4 px-10">
                 <Nav/>
                 <div className="">
                   <Routes>

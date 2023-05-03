@@ -17,3 +17,21 @@
 		transform: scale(1.0);
 	}
 }
+div::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+div::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+div::-webkit-scrollbar-thumb {
+    background: #ff003d;
+}
+
+	{
+    scrollbar-color: #ff003d #ff003d;
+    scrollbar-width: auto;
+}
