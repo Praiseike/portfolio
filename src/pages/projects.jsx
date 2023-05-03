@@ -1,7 +1,11 @@
+import Page from "../components/page/page";
+
 export default function Projects(){
 	return (
-		<div className="bg-white">
-			Projects page;
-		</div>
+		<Page>
+			<div className="bg-white">
+				Projects page;
+			</div>
+		</Page>
 	);
 }
