@@ -5,7 +5,7 @@ export default function Contact(){
 	return (
 		<Page>
 			<div className="py-10 mt-10">
-				<div className="flex flex-row justify-between">
+				<div className="flex sm:md:flex-row flex-col  justify-center sm:md:justify-between">
 					<div className="w-full ">
 						<h1 className="py-3 text-xl text-gray-300">Send me a message </h1>
 						<form className="flex flex-col w-80 text-xs  text-[#ffffff88]">
