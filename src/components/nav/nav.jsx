@@ -17,7 +17,7 @@ export default function Nav(){
 				<NavLink className={({isActive}) => checkActive(isActive)} to="/skills">Skills</NavLink>
 				<NavLink className={({isActive}) => checkActive(isActive)} to="/contact">Contact</NavLink>
 			</ul>
-			<div className="text-xs">dark</div>
+			<div className="text-xs">	</div>
 		</nav>
 	);
 }
