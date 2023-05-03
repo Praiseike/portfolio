@@ -16,7 +16,7 @@ export default function Landing(){
 							<h2 className="px-2 py-1 text-xs bg-[#515151aa] rounded w-fit mr-2">NodeJS/Express</h2>
 							<h2 className="px-2 py-1 text-xs bg-[#515151aa] rounded w-fit mr-2">PHP/Laravel</h2>
 						</div>
-						<button className="py-1 px-4 mt-5 bg-main">See Portfolio →</button>
+						<button className="py-1 px-4 mt-5 bg-main">See Projects →</button>
 					</div>
 
 					<div className="hidden sm:md:block">
