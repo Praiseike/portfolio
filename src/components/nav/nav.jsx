@@ -6,7 +6,7 @@ export default function Nav(){
 	const [ active,setActive ] = useState('home');
 
 	function checkActive(active){
-		return active ? " border-b text-white" : "text-gray-400";
+		return active ? " border-b border-main text-white" : "text-gray-400";
 	}
 	
 	return (
@@ -14,7 +14,7 @@ export default function Nav(){
 			<div className="font-bold text-xl hidden sm:md:block">Ibangha <span className="text-main">Ike</span></div>
 			<ul className="flex flex-row space-x-10 text-xs">
 				<NavLink className={({isActive}) => checkActive(isActive)} to="/">Home</NavLink>
-				{/*<NavLink className={({isActive}) => checkActive(isActive)} to="/projects">Projects</NavLink>*/}
+				<NavLink className={({isActive}) => checkActive(isActive)} to="/projects">Projects</NavLink>
 				<NavLink className={({isActive}) => checkActive(isActive)} to="/skills">Skills</NavLink>
 				<NavLink className={({isActive}) => checkActive(isActive)} to="/contact">Contact</NavLink>
 			</ul>

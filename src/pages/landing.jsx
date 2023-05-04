@@ -4,8 +4,8 @@ import Page from "../components/page/page";
 export default function Landing(){
 	return (
 		<Page>
-			<div className="text-gray-300">
-				<div className="flex sm:md:flex-row flex-col mt-28 lg:mt-0 justify-between h-full">
+			<div className="text-gray-300 h-full	">
+				<div className="flex sm:md:flex-row flex-col items-center mt-28 lg:mt-0 justify-between h-full">
 					<div className="sm:md:w-1/2 flex items-center">
 						<div className="">
 							<h1 className="text-3xl font-bold">Hello!, I'm Ibangha <span className="text-main">Ike</span>.<br/> <span className="gradient-text">A FullStack Web Developer</span></h1>

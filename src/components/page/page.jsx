@@ -12,10 +12,10 @@ export default function Page({children}){
 	},[]);
 
 	return (
-		<div className="w-full h-full">
+		<>
 			{show?
 				children : <PageLoader/>
 			}
-		</div>
+		</>
 	)
 }
