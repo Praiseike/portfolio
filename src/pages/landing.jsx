@@ -1,5 +1,6 @@
 import developer from '../assets/images/sally.png';
 import Page from "../components/page/page";
+import { NavLink } from 'react-router-dom';
 
 export default function Landing(){
 	return (
@@ -17,7 +18,9 @@ export default function Landing(){
 								<h2 className="px-2 py-1 text-xs bg-[#515151aa] rounded w-fit mr-2">NodeJS/Express</h2>
 								<h2 className="px-2 py-1 text-xs bg-[#515151aa] rounded w-fit mr-2">PHP/Laravel</h2>
 							</div>
-							<button className="py-1 px-4 mt-5 bg-main">See Projects →</button>
+							<NavLink to="/projects">
+								<button className="rounded py-1 px-4 mt-5 bg-main">See Projects →</button>
+							</NavLink>
 						</div>
 					</div>
 					<div className="hidden lg:block md:block">
