@@ -16,7 +16,7 @@ export default function Projects(){
 				<div className="flex flex-row flex-wrap gap-10 justify-center w-full h-full">
 				{
 					projects.map(({title,status,image,link },index) => (
-						<a key={index} href={link}>
+						<a key={index} href={link} target="_blank">
 							<div  className="w-[17rem] border border-[#000000aa]" >
 								<img src={image} className="rounded-t" alt="digi essentials"/>
 								<div class="bg-[#000000aa]">
