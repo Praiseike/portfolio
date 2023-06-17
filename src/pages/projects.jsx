@@ -1,14 +1,12 @@
 import Page from "../components/page/page";
 import digiImage from "../assets/images/digi-essentials.png"
-import betaImage from "../assets/images/beta.digi-essentials.png"
+import tBotImage from "../assets/images/tbot.png"
 import storeImage from "../assets/images/phone-store.png"
 
 const projects = [
-
 	{ title:"digi-essentials.com",status:"completed",image: digiImage, link:"https://digi-essentials.com"},
-	{ title:"digi-essentials.com",status:"ongoing",image: betaImage, link:"https://beta.digi-essentials.com"},
-	{ title:"Phone Store",status:"ongoing",image: storeImage, link:"#"}
-
+	{ title:"Phone Store",status:"ongoing",image: storeImage, link:"https://phone-store-e67e.onrender.com/"},
+	{ title:"OpenAI Telegram Bot",status:"completed",image: tBotImage, link:"https://t.me/praise_ikebot"},
 ];
 
 export default function Projects(){
@@ -22,7 +20,8 @@ export default function Projects(){
 							<div  className="w-[17rem] border border-[#000000aa]" >
 								<img src={image} className="rounded-t" alt="digi essentials"/>
 								<div class="bg-[#000000aa]">
-									<p className="text-xs text-gray-200 px-2  w-fit rounded-lg py-1">{status}</p>
+									<p className="text-xs text-gray-200 px-2  w-fit rounded-lg pt-2 text-main">{title}</p>
+									<div className="text-xs text-gray-200 px-2  w-fit rounded-lg py-1">{status}</div>
 								</div>
 							</div>
 						</a>
