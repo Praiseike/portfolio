@@ -2,17 +2,18 @@ import Page from "../components/page/page";
 import digiImage from "../assets/images/digi-essentials.png"
 import tBotImage from "../assets/images/tbot.png"
 import storeImage from "../assets/images/phone-store.png"
-
+import fmtstoreImage from '../assets/images/fmtstore.png'
 const projects = [
 	{ title:"digi-essentials.com",status:"completed",image: digiImage, link:"https://digi-essentials.com"},
 	{ title:"Phone Store",status:"ongoing",image: storeImage, link:"https://phone-store-e67e.onrender.com/"},
 	{ title:"OpenAI Telegram Bot",status:"completed",image: tBotImage, link:"https://t.me/praise_ikebot"},
+	{ title:"FMT Store",status:"completed",image: fmttoreImage, link:"http://fmtstore.rf.gd"},
 ];
 
 export default function Projects(){
 	return (
 		<Page>
-			<div className="mt-10 text-gray-300  relative overflow-hidden">
+			<div className="mt-10 text-gray-300  relative ovserflow-hidden">
 				<div className="flex flex-row flex-wrap gap-10 justify-center w-full h-full">
 				{
 					projects.map(({title,status,image,link },index) => (
