@@ -7,7 +7,7 @@ const projects = [
 	{ title:"digi-essentials.com",status:"completed",image: digiImage, link:"https://digi-essentials.com"},
 	{ title:"Phone Store",status:"ongoing",image: storeImage, link:"https://phone-store-e67e.onrender.com/"},
 	{ title:"OpenAI Telegram Bot",status:"completed",image: tBotImage, link:"https://t.me/praise_ikebot"},
-	{ title:"FMT Store",status:"completed",image: fmttoreImage, link:"http://fmtstore.rf.gd"},
+	{ title:"FMT Store",status:"completed",image: fmtstoreImage, link:"http://fmtstore.rf.gd"},
 ];
 
 export default function Projects(){
